@@ -1,0 +1,161 @@
+<mxfile host="app.diagrams.net" modified="2023-04-10T15:55:18.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vbeqs8J22nYuadwxr0U-" version="21.1.5" type="device">
+  <diagram name="Sayfa -1" id="wbP75VPbr19cgsj2NP_1">
+    <mxGraphModel dx="2292" dy="1751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-1" value="" style="rounded=1;whiteSpace=wrap;html=1;imageHeight=24;arcSize=5;labelBackgroundColor=none;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="300" width="630" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-8" value="weather app - 3" style="rounded=1;whiteSpace=wrap;html=1;direction=west;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-9" value="Input Validation" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-11" value="Weather Controller" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-12" target="RIYD-jQuVXwhRXMoDphk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-22" target="RIYD-jQuVXwhRXMoDphk-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-53" target="RIYD-jQuVXwhRXMoDphk-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-12" value="WeatherService" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="60" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-54" target="RIYD-jQuVXwhRXMoDphk-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-13" value="Weather Repository" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="287" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-14" target="RIYD-jQuVXwhRXMoDphk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-14" value="RateLimiter&lt;br&gt;Resilience4J" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-15" value="H2 Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="303.5" y="670" width="87" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-16" target="RIYD-jQuVXwhRXMoDphk-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-16" value="Cache" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="60" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-23" value="Weather Stack API" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="470" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-27" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="520" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-29" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="520" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-28" value="" style="shape=actor;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="540" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-30" value="10 rate in 1 minute" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="580" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-16" target="RIYD-jQuVXwhRXMoDphk-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="695" />
+              <mxPoint x="140" y="640" />
+              <mxPoint x="220" y="640" />
+              <mxPoint x="220" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-34" value="Scheduled &lt;br&gt;clearCahce" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;labelBackgroundColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="140" y="655" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-38" value="USERS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-39" value="HTTP GET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-40" value="/weather/{cityName}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-299" y="550" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-41" value="OpenAPI&lt;br&gt;Swagger-UI" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-43" value="OpenAPI&lt;br&gt;Swagger-UI" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-44" value="Weather Controller" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-45" value="Input Validation" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-46" value="weather app - 1" style="rounded=1;whiteSpace=wrap;html=1;direction=west;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-47" value="weather app - 2" style="rounded=1;whiteSpace=wrap;html=1;direction=west;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-48" value="weather app - 3" style="rounded=1;whiteSpace=wrap;html=1;direction=west;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-49" value="RateLimiter&lt;br&gt;Resilience4J" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-50" value="HTTP GET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="520" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-13" target="RIYD-jQuVXwhRXMoDphk-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347" y="580" as="sourcePoint" />
+            <mxPoint x="347" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-54" value="persistence requested &lt;br style=&quot;font-size: 10px;&quot;&gt;weather entities" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#1D3557;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="287" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-12" target="RIYD-jQuVXwhRXMoDphk-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="550" as="sourcePoint" />
+            <mxPoint x="287" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-22" value="findCityName" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;labelBackgroundColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="192" y="535" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.016;entryY=0.505;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;entryPerimeter=0;" edge="1" parent="1" source="RIYD-jQuVXwhRXMoDphk-12" target="RIYD-jQuVXwhRXMoDphk-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="520" as="sourcePoint" />
+            <mxPoint x="540" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-53" value="request from weather stack api &lt;br style=&quot;font-size: 10px;&quot;&gt;when requested city does not exist&lt;br style=&quot;font-size: 10px;&quot;&gt;or latest city found is not up to date in 30 min" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;labelBackgroundColor=none;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="194" y="400" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RIYD-jQuVXwhRXMoDphk-61" value="" style="rounded=1;whiteSpace=wrap;html=1;imageHeight=24;arcSize=5;labelBackgroundColor=none;fillColor=none;strokeColor=#666666;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="245" width="1360" height="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

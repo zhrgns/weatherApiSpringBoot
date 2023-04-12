@@ -1,0 +1,45 @@
+version: '3.9'
+
+networks:
+ weatherapp-network:
+
+services:
+  app:
+    image: 'weatherapp:latest'
+    build:
+      context: ./app-01
+    ports:
+      - "9595-9597:8080"
+    deploy:
+      mode: replicated
+      replicas: 3
+    networks:
+      - weatherapp-network
+    environment:
+      - "WEATHER_STACK_API_KEY=${WEATHER_STACK_API_KEY}"
+  prometheus:
+    image: prom/prometheus:v2.35.0
+    container_name: prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./app-01/data/prometheus/config:/etc/prometheus/
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yaml'
+    networks:
+      - weatherapp-network
+  grafana:
+    image: grafana/grafana-oss:8.5.2
+    pull_policy: always
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app-01/data/grafana:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_SERVER_DOMAIN=localhost
+    networks:
+      - weatherapp-network
